@@ -4,6 +4,12 @@
     --violet: hsl(257, 40%, 49%);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0 100px;
     padding: 0;
@@ -18,7 +24,7 @@ body {
     background-image: url(../images/bg-desktop.svg);
     background-position: left center;
     background-repeat: no-repeat;
-    background-size: 1280px 660px;
+    background-size: cover;
 }
 
 header {
@@ -65,17 +71,18 @@ header img {
     font-size: 35px;
     font-weight: 600;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .home-main-content a {
     display: inline-block;
+    margin-top: 20px;
     width: 170px;
     height: 35px;
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 6px;
     background-color: #fff;
     box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.1);
 }
@@ -102,11 +109,11 @@ header img {
 
 .social-networks a {
     width: 30px;
-    height: 25px;
+    height: 30px;
     border: 2px solid #fff;
     border-radius: 50%;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 2px;
     color: #fff;
 }
 
@@ -175,6 +182,6 @@ header img {
     .main-container {
         background-image: url(../images/bg-mobile.svg);
         background-position: top;
-        background-size: 375px 373px;
+        background-size: cover;
     }
 }
