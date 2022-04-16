@@ -2,59 +2,59 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
-  rel="stylesheet">
-  
-  <script src="https://kit.fontawesome.com/c9d0fa6871.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    </link>
+    <!-- FONT AWESOME-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+    </link>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <title>Huddle landing page with a single introductory section</title>
 </head>
 
-<body class="main-container">
-  <header>
-    <div>
-      <img src="./images/logo.svg" alt="Logo de la empresa">
-    </div>
-  </header>
+<body>
 
-  <main>
-    <div class="home-main-container">
-      <div class="home-container-principal">
-        <section class="home-main-img">
-          <img src="./images/illustration-mockups.svg" alt="Ilustración de un diseño web">
+    <main class="main-container">
+        <!-- Header -->
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-img"></div>
+            </div>
+        </header>
+        <!-- Content Container -->
+        <section class="content-container">
+            <!-- Illustration Container -->
+            <section class="illustration-container">
+                <img class="responsive-img" src="./images/illustration-mockups.svg" alt="mockup illustration">
+            </section>
+            <!-- Info Container -->
+            <section class="info-container">
+                <div>
+                    <h1>Build the community your fans will love</h1>
+                </div>
+
+                <div>
+                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+                        Create
+                        connections with your users as you engage in genuine discussion.</p>
+                </div>
+                <!-- Registration Button -->
+                <div><button class="registration-button">Register</button></div>
+            </section>
         </section>
-        <section class="home-main-content">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>
-            Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-            Create connections with your users as you engage in genuine discussion.
-          </p>
-          <a href="">Register</a>
-        </section>
-      </div>
-      <section class="home-main-social">
-        <div class="social-networks">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
+        <div class="social-media">
+            <div class="media-icon"><i class="fab fa-facebook-f"></i></div>
+            <div class="media-icon"><i class="fab fa-twitter"></i></div>
+            <div class="media-icon"><i class="fab fa-instagram"></i></div>
         </div>
-      </section>
-    </div>
-  </main>
+    </main>
+
+
+
 </body>
 
 </html>
